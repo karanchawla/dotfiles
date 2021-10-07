@@ -13,11 +13,11 @@ if test ! $(which brew); then
 fi
 
 # Update Homebrew recipes
-# brew update
+brew update
 
 # Install all our dependencies with bundle (See Brewfile)
-# brew tap homebrew/bundle
-# brew bundle
+brew tap homebrew/bundle
+brew bundle
 
 # Remove .zshrc from $HOME and symlink .zshrc from ~/.dotfiles
 rm -rf $HOME/.zshrc

@@ -36,7 +36,10 @@ alias gca="git add -A && git commit -av"
 alias gdm="!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 # Show the user email for current repository
-alias whoami="config user.email"
+alias whoami="git config user.email"
+
+# Enable aliases to be sudo'ed
+alias sudo='sudo '
 
 # Empty the Trash on all mounted volumes and the main HDD.
 # Also, clear Apple’s System Logs to improve shell startup speed.
