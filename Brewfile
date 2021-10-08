@@ -41,6 +41,7 @@ cask 'spotify'
 cask 'brave-browser'
 cask 'rectangle'
 cask 'rocket'
+cask 'anki'
 
 # Quicklook
 cask 'qlmarkdown'
