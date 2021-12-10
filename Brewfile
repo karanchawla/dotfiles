@@ -27,8 +27,12 @@ brew 'tcpflow'
 brew 'tcpreplay'
 brew 'tcptrace'
 brew 'socat'
+brew 'libpng'
+brew 'npm'
 
 # Development
+brew 'cmake'
+brew 'graphicsmagick'
 cask 'discord'
 cask 'figma'
 cask 'docker'
