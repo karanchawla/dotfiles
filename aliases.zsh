@@ -22,6 +22,9 @@ alias gb="git branch"
 # Clone a repository including all its submodules
 alias gc="git clone --recursive"
 
+# Update submodules
+alias gsu="git submodule update --init --recursive"
+
 # View the log
 alias gl="git log --oneline --decorate --color"
 
@@ -33,7 +36,7 @@ alias gca="git add -A && git commit -av"
 
 # Remove branches that have already been merged with main
 # aka 'delete merged'
-alias gdm="!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+alias gdm="git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 # Show the user email for current repository
 alias whoami="git config user.email"
@@ -71,3 +74,8 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 
+# Print current directory tree
+alias t="tree -d ."
+
+# Pop into Elroy container and current directory
+alias wrk="cd /home/karan/codez; esc;"
