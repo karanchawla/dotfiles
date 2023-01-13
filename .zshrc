@@ -88,3 +88,9 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 # source /opt/ros/foxy/setup.zsh
 # source $HOME/codez/ros2_workspace/install/local_setup.zsh
+
+# NVM installation
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+export PATH="$HOME/.poetry/bin:$PATH"

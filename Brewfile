@@ -27,8 +27,12 @@ brew 'tcpflow'
 brew 'tcpreplay'
 brew 'tcptrace'
 brew 'socat'
+brew 'libpng'
+brew 'npm'
 
 # Development
+brew 'cmake'
+brew 'graphicsmagick'
 cask 'discord'
 cask 'figma'
 cask 'docker'
@@ -41,6 +45,7 @@ cask 'spotify'
 cask 'brave-browser'
 cask 'rectangle'
 cask 'rocket'
+cask 'anki'
 
 # Quicklook
 cask 'qlmarkdown'
